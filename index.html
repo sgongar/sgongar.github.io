@@ -2,9 +2,11 @@
 <html>
 <body>
 
-<h1>My First Heading</h1>
+<h1>Installation of QEMU machine</h1>
 
-<p>My first paragraph.</p>
-
+<p>sudo apt install libglib2.0-dev libgcrypt20-dev zlib1g-dev autoconf automake libtool bison flex libpixman* </p>
+<p>sudo apt install build-essential </p>
+<p>./configure --target-list="aarch64-softmmu" --enable-fdt --disable-kvm --disable-xen </p>
+<p>make -j4</p>
 </body>
 </html>
